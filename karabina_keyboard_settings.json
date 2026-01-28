@@ -162,19 +162,19 @@
             "type": "basic"
         },
         {
-            "description": "Hyper+Period (>) to F10",
+            "description": "Hyper+slash (/) to mute",
             "from": {
-                "key_code": "period",
+                "key_code": "slash",
                 "modifiers": {
                     "mandatory": ["left_command", "left_control", "left_option", "left_shift"],
                     "optional": ["any"]
                 }
             },
-            "to": [{ "key_code": "f10" }],
+            "to": [{ "key_code": "mute" }],
             "type": "basic"
         },
         {
-            "description": "Hyper+Semicolon to F11",
+            "description": "Hyper+Semicolon to volume down",
             "from": {
                 "key_code": "semicolon",
                 "modifiers": {
@@ -182,11 +182,11 @@
                     "optional": ["any"]
                 }
             },
-            "to": [{ "key_code": "f11" }],
+            "to": [{ "key_code": "volume_decrement" }],
             "type": "basic"
         },
         {
-            "description": "Hyper+P to F12",
+            "description": "Hyper+P to volume up",
             "from": {
                 "key_code": "p",
                 "modifiers": {
@@ -194,7 +194,7 @@
                     "optional": ["any"]
                 }
             },
-            "to": [{ "key_code": "f12" }],
+            "to": [{ "key_code": "volume_increment" }],
             "type": "basic"
         },
         {
