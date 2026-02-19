@@ -30,7 +30,7 @@
             "type": "basic"
         },
         {
-            "description": "Hyper+Q to Decrease Brightness",
+            "description": "Hyper+Q to Increase Brightness",
             "from": {
                 "key_code": "q",
                 "modifiers": {
@@ -38,11 +38,11 @@
                     "optional": ["any"]
                 }
             },
-            "to": [{ "key_code": "display_brightness_decrement" }],
+            "to": [{ "key_code": "display_brightness_increment" }],
             "type": "basic"
         },
         {
-            "description": "Hyper+A to Increase Brightness",
+            "description": "Hyper+A to Decrease Brightness",
             "from": {
                 "key_code": "a",
                 "modifiers": {
@@ -50,7 +50,7 @@
                     "optional": ["any"]
                 }
             },
-            "to": [{ "key_code": "display_brightness_increment" }],
+            "to": [{ "key_code": "display_brightness_decrement" }],
             "type": "basic"
         },
         {
