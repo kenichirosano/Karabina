@@ -388,6 +388,40 @@
             },
             "to": [{ "key_code": "0" }],
             "type": "basic"
+        },
+        {
+            "description": "Hyper+G to Screenshot entire screen and save as file (Cmd+Shift+3)",
+            "from": {
+                "key_code": "g",
+                "modifiers": {
+                    "mandatory": ["left_command", "left_control", "left_option", "left_shift"],
+                    "optional": ["any"]
+                }
+            },
+            "to": [
+                {
+                    "key_code": "3",
+                    "modifiers": ["left_command", "left_shift"]
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "description": "Hyper+H to Screenshot entire screen to clipboard (Ctrl+Cmd+Shift+3)",
+            "from": {
+                "key_code": "h",
+                "modifiers": {
+                    "mandatory": ["left_command", "left_control", "left_option", "left_shift"],
+                    "optional": ["any"]
+                }
+            },
+            "to": [
+                {
+                    "key_code": "3",
+                    "modifiers": ["left_command", "left_control", "left_shift"]
+                }
+            ],
+            "type": "basic"
         }
     ]
 }
